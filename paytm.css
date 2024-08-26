@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+.nav-nav {
+    display: flex;
+    background-color:white;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgb(195, 191, 191);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.btn-1{ display: flex;
+width: 120px;
+height: 50px;
+background-color: rgb(24, 123, 236);
+border: 1px solid black;
+border-radius: 50px;
+font-size: 12px;
+gap: 10px;
+color: white;
+
+}
+/* .btn-1-2 {
+    background-image:url('icons8-user-60.png')  ;
+height: 60px;
+width: 60px;
+} */
+.content-div{
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    justify-content: space-around;
+    height: 600px;
+    /* padding:40px; */
+
+}
+.content-child1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+padding-top:30px; 
+padding-right: 0;
+
+}
+.para-1{
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.txth1{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dwnld-btn{
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    
+   
+}
+
+
+.img-2 {
+    height: 100px;
+    width: 100px;
+
+}
+.img-3{ 
+    margin-left: 150px;
+    height: 90%;
+    margin-top:45px;
+}
